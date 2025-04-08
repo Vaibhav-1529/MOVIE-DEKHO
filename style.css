@@ -11,7 +11,7 @@ body {
 }
 
 .upper-container {
-  width: 98vw;
+  width: 100vw;
   background-image: url("./background.jpg");
   background-size: cover;
   background-repeat: no-repeat;
@@ -19,6 +19,7 @@ body {
   position: relative;
   padding-bottom: 30px;
   display: flex;
+  justify-content: center;
   flex-direction: column;
   gap: 10px;
   justify-content: space-around;
