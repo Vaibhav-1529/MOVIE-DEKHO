@@ -140,13 +140,13 @@ for (const element of seemore) {
   if(!condition){
     document.querySelector("."+rowname+"-row").classList.add("full-show");
     condition=true;
-    element.innerText="See Less";
+    element.innerHTML=`<i class="fa-solid fa-angles-down"></i>`;
   }
   else
   {
     document.querySelector("."+rowname+"-row").classList.remove("full-show");
     condition=false;
-    element.innerText="See more";
+    element.innerHTML=`<i class="fa-solid fa-angles-right"></i>`;
   }
   })
 }
