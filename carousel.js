@@ -43,7 +43,7 @@ let autointerval;
 function autorotate() {
   clearInterval(autointerval);
   autointerval = setInterval(() => {
-    goright();
+    Carouselshiftright();
   }, 5000);
 }
 autorotate();
