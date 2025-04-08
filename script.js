@@ -140,11 +140,13 @@ for (const element of seemore) {
   if(!condition){
     document.querySelector("."+rowname+"-row").classList.add("full-show");
     condition=true;
+    element.innerText="See Less";
   }
   else
   {
     document.querySelector("."+rowname+"-row").classList.remove("full-show");
     condition=false;
+    element.innerText="See more";
   }
   })
 }
