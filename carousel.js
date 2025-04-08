@@ -47,11 +47,11 @@ function autorotate() {
   }, 5000);
 }
 autorotate();
-function goright() {
+function goRcarousel() {
   shiftright();
   autorotate();
 }
-function goleft() {
+function goLcarousel() {
   shiftleft();
   autorotate();
 }
