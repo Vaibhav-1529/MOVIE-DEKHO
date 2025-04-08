@@ -48,14 +48,14 @@ function autorotate() {
 }
 autorotate();
 function goRcarousel() {
-  shiftright();
+  Carouselshiftright();
   autorotate();
 }
 function goLcarousel() {
-  shiftleft();
+  Casouselshiftleft();
   autorotate();
 }
-function shiftright() {
+function Carouselshiftright() {
   let slidearray = document.querySelectorAll(".trendingSlide");
   let first = slidearray[0];
   let parent = first.parentElement;
@@ -66,7 +66,7 @@ function shiftright() {
     slide.style.left = `${index * 100}%`;
   });
 }
-function shiftleft() {
+function Casouselshiftleft() {
   let slidearray = document.querySelectorAll(".trendingSlide");
   let last = slidearray[trendingSlide.length - 1];
   let parent = last.parentElement;
