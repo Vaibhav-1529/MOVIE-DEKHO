@@ -33,7 +33,7 @@ async function searchTheMovie(row) {
     );
     const data = await response.json();
     searchData1 = data.results;
-    console.log(searchData1);
+    // console.log(searchData1);
     insertROw(searchData1, rowname);
   } catch (error) {
     console.error("Error fetching movie:", error);
@@ -96,7 +96,7 @@ async function TrendingMovie() {
     );
     const data = await response.json();
     searchData2 = data.results;
-    console.log(searchData2);
+    // console.log(searchData2);
     TrendingMovieInsert(searchData2);
   } catch (error) {
     console.error("Error fetching movie:", error);
